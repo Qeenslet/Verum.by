@@ -109,7 +109,10 @@ h6 {
 .about-section {
     padding-top: 90px;
     padding-bottom: 50px;
-    background-color: grey;
+    background-color: white;
+    background-image: url("../img/Confetti.png");
+    background-position: center center;
+    background-size: cover;
 }
 
 .section-heading {
