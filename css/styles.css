@@ -36,15 +36,19 @@ h6 {
 
 .navbar-brand {
     overflow: hidden;
-    height: 75px;
+    height: 90px;
     padding-top: 10px;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
 }
 
+.navbar-brand h4 {
+    margin-top: 0;
+}
+
 .nav {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 
