@@ -36,7 +36,7 @@ h6 {
 
 .navbar-brand {
     overflow: hidden;
-    height: 90px;
+    height: 80px;
     padding-top: 10px;
     padding-bottom: 0;
     padding-left: 0;
@@ -48,18 +48,18 @@ h6 {
 }
 
 .nav {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 
 /*Introduction*/
 
 .introduction-section {
-    padding: 170px 0 80px 0;
-    border-bottom: 1px solid #e7e7e7;
+    padding: 150px 0 50px 0;
 }
 
 .introduction-section h1{
+    margin-top: 0;
     margin-bottom: 30px;
     font-size: 4em;
     color: #00938b;
@@ -111,13 +111,17 @@ h6 {
 /*About*/
 
 .about-section {
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 50px;
     background-color: white;
-    background-image: url("../img/Confetti.png");
+    background-image: url("../img/leaves.png");
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     text-align: justify;
+}
+
+.intro-message {
+    background-color: white;
 }
 
 .section-heading {
@@ -165,8 +169,13 @@ h6 {
 
 /*program*/
 
+.program-section {
+    padding-top: 80px;
+}
+
 .program-section .carousel {
-    padding: 100px 0;
+    padding: 10px 0 80px 0;
+    min-height: 525px;
 }
 
 .module-heading {
@@ -183,8 +192,22 @@ h6 {
 }
 
 .carousel-indicators .active {
-    background-color: #2B3990;
-    border-color: #2B3990;
+    background-color: #00938b;
+    border-color: #00938b;
+}
+
+.carousel-control {
+    color: #00938b;
+}
+
+.carousel-control:focus,
+.carousel-control:hover {
+    color: #00645e;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
 }
 
 /*contact*/
