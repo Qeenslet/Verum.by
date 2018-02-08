@@ -121,7 +121,7 @@ h6 {
 }
 
 .section-heading {
-    margin: 0;
+    margin-bottom: 40px;
     font-size: 3em;
     text-align: center;
 }
@@ -155,12 +155,12 @@ h6 {
     background-color: #f8f8f8;
 }
 
-.authors-section h2 {
-    margin-bottom: 40px;
-}
-
 .text-warning {
     color: #ffbe25;
+}
+
+.img-author {
+    max-width: 200px;
 }
 
 /*program*/
@@ -169,8 +169,13 @@ h6 {
     padding: 100px 0;
 }
 
-.img-author {
-    max-width: 200px;
+.module-heading {
+    margin-bottom: 40px;
+}
+
+.module-content li {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .carousel-indicators li {
