@@ -235,16 +235,16 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12">
-                            <form name="contactForm" id="contactForm" onsubmit="check()">
+                            <form name="contactForm" id="contactForm" onsubmit="serverConnector.send()">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control input-lg" placeholder="Имя" id="name" required>
+                                            <input name="name" type="text" class="form-control input-lg" placeholder="Имя" id="name" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control input-lg" placeholder="Email" id="email" required>                                         </div>
+                                            <input name="email" type="email" class="form-control input-lg" placeholder="Email" id="email" required>                                         </div>
                                         <div class="form-group">
-                                            <input type="tel" class="form-control input-lg" placeholder="Телефон" id="phone" required>
+                                            <input name="phone" type="tel" class="form-control input-lg" placeholder="Телефон" id="phone" required>
                                         </div>
                                     </div>
 
