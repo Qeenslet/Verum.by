@@ -17,12 +17,17 @@ if (!empty($_POST))
         {
             if (!empty($_POST[$f]))
             {
-                $message .= strip_tags($_POST[$f]) . '<br>';
+                $message .= strip_tags($_POST[$f]) . "\r\n";
             }
+        }
+        $headers = null;
+        if (!empty($settings['address_from']))
+        {
+            $headers = 'From: ' . $settings['address_from'] . "\r\n";
         }
         if (!empty($settings['target_address']) && !empty($settings['target_subject']))
         {
-            if (mail($settings['target_address'], $settings['target_subject'], $message))
+            if (mail($settings['target_address'], $settings['target_subject'], $message, $headers))
             {
                 $result['ok'] = true;
             }
